@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - run: npm i
+      - run: npm install
       - run: npm run build
 
       - uses: marcedees/action-aws-cli@v1.1
